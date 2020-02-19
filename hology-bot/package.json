@@ -1,0 +1,19 @@
+{
+  "name": "hology-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "hology-bot build --output public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.2.2",
+    "node-telegram-bot-api": "^0.40.0",
+    "now": "^16.4.3",
+    "telegraf": "^3.33.0"
+  }
+}
